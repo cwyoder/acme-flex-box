@@ -1,0 +1,133 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar {
+    color: white;
+    background-color: dodgerblue;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    flex: 1 1 100px;
+}
+
+nav {
+    flex: 3 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink__focus {
+    font-weight: bold;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+}
+
+#content {
+    color: dimgray;
+    padding: 0 1rem;
+}
+
+#content > h1 {
+    font-size: 2rem;
+}
+
+#input-wrapper {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 2rem 1rem;
+}
+
+#input-wrapper h2 {
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.input-container p {
+    font-weight: bold;
+    flex: 1 2 50px;
+    margin: 0 4px 0 0;
+}
+
+.input-container input {
+    flex: 4 0;
+    height: 1.2rem;
+}
+
+.input-container select {
+    flex: 4 0;
+}
+
+#submit-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn {
+    font-size: 1rem;
+    border-radius: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.form-btn__blue {
+    color: white;
+    background-color: dodgerblue;
+}
+
+#user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-container {
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    width: 26%;
+    margin: 2%;
+    /* flex: 0 1 200px; */
+}
+/* 
+@media (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .user-container {
+        width: 80%;
+    }
+} */
