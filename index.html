@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <section id='navbar'>
+            <div class='logo'>
+                Acme Layout
+            </div>
+            <nav>
+                <a class='navlink navlink__focus' href="#">Users</a>
+                <a class='navlink' href="#">Departments</a>
+                <a class='navlink' href="#">Contact</a>
+            </nav>
+        </section>
+        <section id='content'>
+            <h1>Users</h1>
+            <div id='input-wrapper'>
+                <h2>Create A User</h2>
+                <form>
+                    <div class='input-container'>
+                        <p>First Name</p>
+                        <input type="text" id="firstname">
+                    </div>
+                    <div class='input-container'>
+                        <p>Last Name</p>
+                        <input type="text" id="lastname">
+                    </div>
+                    <div class='input-container'>
+                        <p>Department</p>
+                        <select id="firstname">
+                            <option value="none">-- None --</option>
+                            <option value="option-a">Option A</option>
+                            <option value="option-b">Option B</option>
+                            <option value="option-c">Option C</option>
+                        </select>
+                    </div>    
+                    <div id='submit-btns'>
+                        <input class='form-btn' type='reset' value='Clear'>
+                        <input class='form-btn form-btn__blue'type='submit' value='Save'>
+                    </div>    
+                </form>
+            </div>
+            <div id='user-list'>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user</p>
+                </div>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user. Some text for the user. Some text for the user. Some text for the user. Some text for the user. Some text for the user.</p>
+                </div>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user</p>
+                </div>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user</p>
+                </div>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user</p>
+                </div>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user</p>
+                </div>
+                <div class='user-container'>
+                    <h3>User A</h3>
+                    <p>Some text for the user</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
