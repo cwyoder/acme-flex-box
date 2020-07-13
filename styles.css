@@ -1,6 +1,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     box-sizing: border-box;
+    margin: 0;
 }
 
 #navbar {
@@ -110,10 +111,22 @@ nav {
     padding: 1rem;
     width: 26%;
     margin: 2%;
-    /* flex: 0 1 200px; */
 }
-/* 
+
+.user-container h3 {
+    margin: 0 0 1rem 0;
+}
+
+.user-container p {
+    margin: 0;
+}
+
 @media (max-width: 600px) {
+    .logo {
+        flex: 0 1;
+        margin: 0 0 1rem 0;
+    }
+
     #navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -123,11 +136,31 @@ nav {
         flex-direction: column;
     }
 
+    .navlink {
+        margin: 0 0 1rem 0;
+    }
+
+    .navlink:last-child {
+        margin: 0;
+    }
+
+    #input-wrapper {
+        width: calc(100% - 2rem);
+    }
+
     .input-container {
-        flex-direction: column;
+        display: block;
+    }
+
+    .input-container p {
+        margin: 0 0 1rem 0;
     }
 
     .user-container {
         width: 80%;
     }
-} */
+    
+    #submit-btns {
+        flex-direction: column;
+    }
+}
